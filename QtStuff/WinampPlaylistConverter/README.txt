@@ -1,0 +1,1 @@
+Basic Winamp Playlist Editor, I encountered a problem of my WinAmp playlist attempting to read from the wrong drive due to a drive change. I simply read in the playlist file, located all instances of the string "E:/" and changed it to "D:/" so that my music could then be located without having to reconstruct the entire playlist.
